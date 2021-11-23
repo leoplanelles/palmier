@@ -14,11 +14,11 @@ function Card() {
 
     return (
         <div>
-            <ul>
                 {data.map(e => 
-                <p>{e.code}</p>
-                <img src={e.image}><img>)}
-            </ul>
+                <div>
+                <h2>{e.value} OF {e.suit}</h2>
+                <img src={e.image} alt={e.image}/>
+                </div>)}
         </div>
     )
 
