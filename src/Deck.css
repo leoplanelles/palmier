@@ -1,0 +1,7 @@
+.deck{
+    border-radius: 10px;
+}
+
+.deck:hover {
+    opacity: 0.8;
+}
