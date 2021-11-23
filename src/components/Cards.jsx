@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import Deck from './Deck';
 
 function Card() {
     const [data, setData] = useState([]);
@@ -13,15 +14,15 @@ function Card() {
     , []);
 
     return (
-        <div>
-            <ul>
-                {data.map(e => 
-                <p>{e.code}</p>
-                <img src={e.image}><img>)}
-            </ul>
-        </div>
-    )
-
-}
+      <div>
+        <Deck />
+        {data.map(e =>
+          <div>
+          <h2>{e.value} OF {e.suit}</h2>
+          <img src={e.image} alt={e.image}/>
+          </div>)}
+      </div>
+      )
+};
 
 export default Card;
