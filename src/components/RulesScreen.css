@@ -1,0 +1,18 @@
+.rulesScreen {
+    color: black;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    box-shadow: black;
+    width: 25%;
+    height: 50vh;
+    padding: 1em;
+
+    display:flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
