@@ -1,13 +1,14 @@
 import './App.css';
 import Cards from './components/Cards'
 import Header from './components/Header';
-import RulesScreen from './components/RulesScreen';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Cards />
+      <Footer />
     </div>
   );
 }

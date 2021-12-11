@@ -1,5 +1,5 @@
 import ruleCard from "./RuleOfDraw";
-import './RulesScreen.css';
+import './css/RulesScreen.css';
 
 const RulesScreen = ({ name, rule }) => {
     return (

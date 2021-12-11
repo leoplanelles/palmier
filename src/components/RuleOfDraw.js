@@ -9,7 +9,7 @@ const ruleCard = (card) => {
       }
     }
     if(card.value==='7'){
-      return `Dans ma valise j'ai... A tour de rôle, les joueurs doivent énoncer un objet qu'ils ont dans leur valise tout en rappelant les objets précédemment cités. Le jeu s'arrête lorsqu'un jour se trompe`
+      return `"Dans ma valise j'ai..." A tour de rôle, les joueurs doivent énoncer un objet qu'ils ont dans leur valise tout en rappelant les objets précédemment cités. Le jeu s'arrête lorsqu'un jour se trompe`
     }
       if(card.value==='8'){
       return `Choisis un thême. Chaque joueur donne un mot dans le thême choisis jusqu'à ce qu'un joueur n'en ai plus ou qu'un mot soit répété 2 fois.`

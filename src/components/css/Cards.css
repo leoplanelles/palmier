@@ -1,0 +1,15 @@
+.cardsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 1em; */
+  }
